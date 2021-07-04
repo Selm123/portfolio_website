@@ -339,6 +339,26 @@ $('.ball').on('click', () => {
   window.location.href = "#intro";
 });
 
+$('#intro-nav').on('click', () => {
+  window.location.href = "#intro";
+});
+
+$('#one-nav').on('click', () => {
+  window.location.href = "#one";
+});
+
+$('#two-nav').on('click', () => {
+  window.location.href = "#two";
+});
+
+$('#work-nav').on('click', () => {
+  window.location.href = "#work";
+});
+
+$('#contact-nav').on('click', () => {
+  window.location.href = "#contact";
+});
+
 $("#link-demo-1-btn").on("mouseenter", ()=>{
   $("#span-demo-1-left").css("margin-right", "6px");
   $("#span-demo-1-right").css("margin-left", "6px");
